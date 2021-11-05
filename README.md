@@ -69,3 +69,6 @@ Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Finished at: 2021-11-05T11:48:10Z
 [INFO] ------------------------------------------------------------------------
 ```
+
+Kilder brukt:
+[Dev.to](https://dev.to/ewefie/getting-started-with-github-actions-run-junit-5-tests-in-a-java-project-with-maven-20g4 "Title") Dev.to Artikkel på Github Action + Maven og JUnit.
