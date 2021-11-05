@@ -1,4 +1,4 @@
-# java_testing_software_engineering
+# Software Engineering og Testing, Oblig 3 - Git og Continuous integration
 Software engineering og testing, oblig 3
 
 Først gikk jeg inn i Actions, og satt opp "New Workflow" og valgte "Java with Maven"
@@ -41,7 +41,7 @@ jobs:
 
 Noen av endringene var at den skulle kjøre Java versjon 17, også måtte jeg legge inn: 
 ```yml
-un: mvn -B test --file pom.xml
+run: mvn -B test --file pom.xml
 ```
 
 Slik at den kjørte testene.
