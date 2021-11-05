@@ -39,6 +39,13 @@ jobs:
       run: mvn -B test --file pom.xml
 ```
 
+Noen av endringene var at den skulle kjøre Java versjon 17, også måtte jeg legge inn: 
+```yml
+un: mvn -B test --file pom.xml
+```
+
+Slik at den kjørte testene.
+
 Deretter lagra jeg, og den kjørte testen. Jeg fikk en grønn checkmark, som viser at testene er gjennomført og at alt var i orden. 
 
 Hvis du går inn i detaljer på Maven.yml, og sjekker "Test with Maven", så vil resultatet også dukke opp.
